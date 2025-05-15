@@ -12,7 +12,7 @@ export async function fetchBlogPosts(): Promise<BlogsContent[]> {
 
   const data = await res.json();
 
-  const posts = data.posts.map((post: any) => ({
+  const posts = data.posts.map((post: BlogsContent) => ({
     ID: post.ID,
     title: post.title,
     featured_image: post.featured_image,
