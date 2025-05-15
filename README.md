@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📰 NextPress – A Headless Blog with Next.js + WordPress
 
-## Getting Started
+NextPress is a high-performance, headless blog built with **Next.js 14**, designed to deliver modern frontend capabilities while using **WordPress** purely as a backend CMS via its **REST API**. This separation of concerns gives you the flexibility of modern development practices with the familiarity of WordPress content management.
 
-First, run the development server:
+---
+
+## 📸 Demo
+
+Coming soon — stay tuned!
+
+## 🚀 Features
+
+- ⚡️ Powered by **Next.js 14** – App Router, Streaming, and more
+- 🧠 Uses **WordPress** as a headless CMS via its REST API
+- 📰 Fully decoupled frontend and backend
+- 📱 Responsive design optimized for all devices
+- 🔍 SEO-friendly rendering strategies
+- 🚀 **Super fast loading times** thanks to static generation and dynamic rendering
+- 🔄 Manual and static content revalidation supported
+- 💻 Developer-friendly project structure
+
+---
+
+## 🧑‍💻 Getting Started (Run Locally)
+
+### 1. Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/CodeStarGM/wordpress-headless-blog-nextjs.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Add Environmental Variables
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+NEXT_PUBLIC_WORDPRESS_URL="https://public-api.wordpress.com/rest/v1.1/sites/[yourDomain].wordpress.com"
+```
