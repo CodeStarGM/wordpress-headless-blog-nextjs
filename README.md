@@ -6,7 +6,18 @@ NextPress is a high-performance, headless blog built with **Next.js 14**, design
 
 ## 📸 Demo
 
-Coming soon — stay tuned!
+<a href="https://wordpress-headless-blog-nextjs.vercel.app/" target="_blank" style="
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-family: sans-serif;
+">
+Click Here To View Demo
+</a>
 
 ## 🚀 Features
 
