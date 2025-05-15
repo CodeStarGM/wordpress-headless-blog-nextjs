@@ -23,7 +23,6 @@ export async function fetchBlogPosts(): Promise<BlogsContent[]> {
       name: post.author.name,
       avatar_URL: post.author.avatar_URL,
     },
-    tags: post.tags ? Object.values(post.tags).map((tag: any) => tag.name) : [],
   }));
 
   return posts;

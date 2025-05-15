@@ -46,15 +46,6 @@ export default function Blogs({ posts }: BlogsProps) {
                 </div>
                 <div className="flex flex-1 flex-col justify-between bg-white p-3">
                   <div className="flex-1">
-                    {post.tags?.map((tag, index) => (
-                      <p
-                        key={index}
-                        className="text-sm font-medium text-indigo-600"
-                      >
-                        {tag}
-                      </p>
-                    ))}
-
                     <p className="text-xl font-semibold text-gray-900">
                       {post.title}
                     </p>

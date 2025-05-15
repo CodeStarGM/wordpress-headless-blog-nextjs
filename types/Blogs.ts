@@ -9,5 +9,4 @@ export type BlogsContent = {
   slug: string;
   date: string; // or Date if you parse it
   content: string;
-  tags?: string[];
 };
