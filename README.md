@@ -1,5 +1,7 @@
 # 📰 NextPress – A Headless Blog with Next.js + WordPress
 
+![NextPress](https://api.pikwy.com/web/682645809d4f48074f2920e3.png)
+
 NextPress is a high-performance, headless blog built with **Next.js 14**, designed to deliver modern frontend capabilities while using **WordPress** purely as a backend CMS via its **REST API**. This separation of concerns gives you the flexibility of modern development practices with the familiarity of WordPress content management.
 
 ---
